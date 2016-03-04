@@ -20,8 +20,13 @@ var objects;
         // update game objects in my scene
         Scene.prototype.update = function () {
         };
+        // Setup Background
+        Scene.prototype._setupBackground = function (background) {
+            this._blackBackground = new createjs.Bitmap(assets.getResult(background));
+            this.addChild(this._blackBackground);
+        };
         return Scene;
-    }(createjs.Container));
+    })(createjs.Container);
     objects.Scene = Scene;
 })(objects || (objects = {}));
 //# sourceMappingURL=scene.js.map

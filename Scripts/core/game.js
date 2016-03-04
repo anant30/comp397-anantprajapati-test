@@ -13,7 +13,15 @@ var end;
 var assetData = [
     // Add your Assets here
     { id: "StartButton", src: "../../Assets/images/StartButton.png" },
-    { id: "StartOverButton", src: "../../Assets/images/StartOverButton.png" }
+    { id: "StartOverButton", src: "../../Assets/images/StartOverButton.png" },
+    { id: "Dice1", src: "../../Assets/images/Dice1.png" },
+    { id: "Dice2", src: "../../Assets/images/Dice2.png" },
+    { id: "Dice3", src: "../../Assets/images/Dice3.png" },
+    { id: "Dice4", src: "../../Assets/images/Dice4.png" },
+    { id: "Dice5", src: "../../Assets/images/Dice5.png" },
+    { id: "Dice6", src: "../../Assets/images/Dice6.png" },
+    { id: "RollButton", src: "../../Assets/images/RollButton.png" },
+    { id: "DiceMenu", src: "../../Assets/images/DiceMenu.png" }
 ];
 function preload() {
     assets = new createjs.LoadQueue();

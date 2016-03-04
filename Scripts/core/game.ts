@@ -24,6 +24,7 @@ var assetData:objects.Asset[] = [
     {id: "Dice4", src:"../../Assets/images/Dice4.png"},
     {id: "Dice5", src:"../../Assets/images/Dice5.png"},
     {id: "Dice6", src:"../../Assets/images/Dice6.png"},
+    {id: "RollButton", src:"../../Assets/images/RollButton.png"},
     {id: "DiceMenu", src:"../../Assets/images/DiceMenu.png"}
     
 

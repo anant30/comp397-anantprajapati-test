@@ -4,7 +4,7 @@ module scenes {
         //PRIVATE INSTANCE VARIABLES ++++++++++++
         private _menuLabel: objects.Label;
         private _startButton: objects.Button;
-        
+       
         // CONSTRUCTOR ++++++++++++++++++++++
         constructor() {
             super();
@@ -31,6 +31,8 @@ module scenes {
             
             // Start Button event listener
             this._startButton.on("click", this._startButtonClick, this);
+            
+            
             
             
             // add this scene to the global stage container
